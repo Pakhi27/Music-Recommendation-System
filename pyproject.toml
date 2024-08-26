@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "music-recommendation-system"
+version = "0.1.0"
+description = "a python based music recommendation system"
+authors = ["Pakhi27 <singhalpakhi27@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
